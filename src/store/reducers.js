@@ -1,4 +1,4 @@
-const INITIAL_STATE = [];
+const INITIAL_STATE = [{ id: Math.random(), text: "Hey Listen!" }];
 
 const todos = (state = INITIAL_STATE, action) => {
   switch (action.type) {
